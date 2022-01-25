@@ -6,7 +6,7 @@ package ca.mcgill.ecse321.EventRegistration;
 //@SpringBootTest
 class EventRegistrationBackendApplicationTests {
 
-	@Test
+	//@Test
 	void contextLoads() {
 	}
 
