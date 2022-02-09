@@ -9,14 +9,12 @@ import org.springframework.web.bind.annotation.RequestMapping;
 @SpringBootApplication
 public class EventRegistrationBackendApplication {
 
-  public static void main(String[] args) {
-    SpringApplication.run(EventRegistrationBackendApplication.class, args);
-  }
+	public static void main(String[] args) {
+		SpringApplication.run(EventRegistrationBackendApplication.class, args);
+	}
 
-  // Request map
-  @RequestMapping("/")
-  public String greeting(){
-    return "Hello world!";
-  }
-
+	@RequestMapping("/")
+	public String greeting() {
+		return "Hello world!";
+	}
 }
